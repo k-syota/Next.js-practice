@@ -6,8 +6,9 @@ import './index.css';
 // import Name from './components/Name'
 // import Message from './components/Message'
 // import Parent from './components/ContainerSample'
-import Page from './components/ContextSample'
-import reportWebVitals from './reportWebVitals';
+// import Page from './components/ContextSample'
+// import reportWebVitals from './reportWebVitals';
+import Counter from './components/Counter';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,11 +20,13 @@ root.render(
     {/* <Name /> */}
     {/* <Message /> */}
     {/* <Parent /> */}
-    <Page />
+    {/* <Page /> */}
+    <Counter  initialValue={1}/>
+
   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
